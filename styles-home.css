@@ -1,0 +1,164 @@
+p,span{
+    background-color: rgb(164, 159, 151);
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    background-color: wheat;
+    box-sizing: border-box;
+}
+a{
+    cursor: default;
+}
+.header{
+    height: 60px;
+    background-color: rgb(92, 150, 92);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Rik{
+    font-size: 30px;
+    background-color: rgb(92, 150, 92);
+}
+.hr-but{
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(92, 150, 92);
+    border: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 3%;
+    font-size: 20px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.hr-but:hover{
+    background-color: white;
+    border-color: rgb(92, 150, 92);
+    color: rgb(92, 150, 92);
+
+}
+
+.header-text{
+    font-size: 25px;
+    padding-top: 8px;
+    margin-left: 10%;
+    transition: 0.7s;
+    background-color: rgb(92, 150, 92);
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.home-text-background{
+    align-self: center;
+    margin-top: 70px;
+    padding: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(164, 159, 151);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.home-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    background-color: rgb(164, 159, 151);
+}
+.home-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(164, 159, 151);
+    text-align: center;
+}
+.peer-image{
+    width: 100%;
+    padding-top: 8px;
+    background-color: rgb(92, 150, 92);
+}
+.about-me-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    background-color: rgb(164, 159, 151);
+}
+.about-me-text{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(164, 159, 151);
+}
+.highlights{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(164, 159, 151);
+}
+.info{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.info2{
+    color: blue;
+    text-decoration: underline;
+
+}
+ .outer-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0 4px;
+    width: auto;
+    max-height: 200px;
+    max-width: 90%;
+    column-gap: -10px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+ }
+ 
+details{
+    background-color: rgb(164, 159, 151);
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+summary, caption{
+    background-color: rgb(164, 159, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+summary{
+    border-bottom-style: dashed;
+}
+.photo-lib{
+   
+    background-color: rgb(164, 159, 151);
+    display: flex;
+    justify-content: center;
+
+}
+.photos{
+    margin-left: -5%;
+    display: inline-block;
+    width: 12%;
+    padding: 4px;
+    border-radius: 20px;
+    border-color: rgb(164, 159, 151);
+    background-color: rgb(164, 159, 151);
+    transition: 0.8s;
+}
+.photos:hover{
+    margin-right: 5%;
+}
